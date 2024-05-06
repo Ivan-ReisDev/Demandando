@@ -1,0 +1,30 @@
+.login {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.login h1{
+    margin: 70px 0 10px 0;
+    font-size: 30px;
+    color: #086439;
+}
+
+.login form {
+    align-items: center;
+}
+
+.login p {
+    color: rgb(104, 104, 104);
+
+}
+
+.login button {
+    margin: 15px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #086439;
+    
+}

@@ -1,0 +1,38 @@
+.about  {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about h2 {
+    margin: 1em;
+    color: #086439;
+}
+
+.about p {
+    color: #AAA;
+    margin: 1em;
+}
+
+.about a {
+    border: none;
+    margin: 2em;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    background-color: #086439;
+    transition: .7s;
+}
+
+.about a:hover {
+    background-color: #063d23;
+    transition: .7s;
+}
